@@ -18,10 +18,7 @@ print("standard deviation of prices",std_price)
 expensive_items=prices[prices>40]
 print("expensive items",expensive_items)
 
-sales=np.array([100,200,300,
-                400,500,600,
-                700,800,900,
-                1000,1100,1200]) 
+sales=np.array([100,200,300,400,500,600,700,800,900,1000,1100,1200]) 
 
 sales_matrix=sales.reshape(4,3)
 print("sales matrix")
